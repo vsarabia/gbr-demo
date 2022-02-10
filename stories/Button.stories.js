@@ -30,7 +30,7 @@ export default {
 // Primary
 export const Primary = ({ label, disabled, ...args }) => {
   const disabled_arg = ( disabled ) ? "disabled" : "";
-  return (`<button class="button-primary" ${disabled_arg} >${label}</button>`);
+  return (`<button class="button-primary" ${disabled_arg}>${label}</button>`);
 };
 Primary.args = {
   label: 'Button',
@@ -40,7 +40,7 @@ Primary.args = {
 // Secondary
 export const Secondary = ({ label, disabled, ...args }) => {
   const disabled_arg = ( disabled ) ? "disabled" : "";
-  return (`<button class="button-secondary" ${disabled_arg} >${label}</button>`);
+  return (`<button class="button-secondary" ${disabled_arg}>${label}</button>`);
 };
 Secondary.args = {
   label: 'Button',
